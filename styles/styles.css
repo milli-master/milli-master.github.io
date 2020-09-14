@@ -86,7 +86,7 @@ main {
 }
 
 .profile-card {
-    width: 400px;
+    max-width: 400px;
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
@@ -101,7 +101,7 @@ main {
 .pic {
     display: inline-block;
     padding: 8px;
-    background: linear-gradient(130deg, #c0d2e4, #3a4f7a);
+    background: linear-gradient(130deg, #e1e6ec, #3a4f7a);
     background-size: 200% 200%;
     margin: auto;
     border-radius: 50%;
@@ -177,7 +177,7 @@ main {
 .card-footer {
     background: #f4f4f4;
     padding: 40px 10px;
-    opacity: .7;
+    opacity: .8;
 }
 
 .quote {
