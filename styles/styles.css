@@ -90,6 +90,7 @@ main {
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
+    opacity: .9;
 }
 
 .card-header {
@@ -176,6 +177,7 @@ main {
 .card-footer {
     background: #f4f4f4;
     padding: 40px 10px;
+    opacity: .7;
 }
 
 .quote {
