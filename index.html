@@ -16,27 +16,94 @@
         <div class="profile-card">
             <div class="card-header">
                 <div class="pic">
-                    <img src="./image/duongavatar.jpg" alt="Milli-Master Avatar">
+                    <img src="./image/avatar.png" alt="Milli-Master Avatar">
                 </div>
-                <div class="name">Lofi Master</div>
-                <div class="desc">Student & Editor Video Lyric</div>
+                <div class="name">Milli Master</div>
+                <div class="desc">I'm Student & Fresher Developer</div>
                 <div class="sm">
-                    <a href="https://fb.com/duong.phamngoc.58511" target='_blank' class="fab fa-facebook-f"></a>
-                    <a href="https://github.com/loli-master" target='_blank' class="fab fa-github"></a>
-
-                    <a href="mailto:phamduong01677897242@gmail.com" target='_blank' class="fas fa-envelope"></a>
+                    <a href="https://fb.com/phamduc0110" target='_blank' class="fab fa-facebook-f"></a>
+                    <a href="https://github.com/milli-master" target='_blank' class="fab fa-github"></a>
+                    <a href="https://www.youtube.com/channel/UCYme_m8SBYDCYfxXYiU5YEg" target='_blank'
+                        class="fab fa-youtube"></a>
+                    <a href="mailto:millixmaster@gmail.com" target='_blank' class="fas fa-envelope"></a>
                 </div>
-                <a href="http://m.me/duong.phamngoc.58511" target='_blank' class='contact-btn'>Contact Me</a>
+                <a href="http://m.me/phamduc0110" target='_blank' class='contact-btn'>Contact Me</a>
             </div>
-            <div class="card-footer">
-                <blockquote>
-                    <div class="quote"><q>You’ve gotta dance like there’s nobody watching. Love like you’ll never be
-                            hurt. Sing
-                            like there’s nobody listening. And live like it’s heaven on earth.</q></div>
-                    <div class="quote-aut"><br>&mdash; William W. Purkey</div>
-                </blockquote>
+            <div id="app-cover">
+                <div id="player">
+                    <div id="player-track">
+                        <div id="album-name"></div>
+                        <div id="track-name"></div>
+                        <div id="track-time">
+                            <div id="current-time"></div>
+                            <div id="track-length"></div>
+                        </div>
+                        <div id="s-area">
+                            <div id="ins-time"></div>
+                            <div id="s-hover"></div>
+                            <div id="seek-bar"></div>
+                        </div>
+                    </div>
+                    <div id="player-content">
+                        <div id="album-art">
+                            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+                                class="active" id="_1">
+                            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg"
+                                id="_2">
+                            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg"
+                                id="_3">
+                            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg"
+                                id="_4">
+                            <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg"
+                                id="_5">
+                            <div id="buffer-box">Buffering ...</div>
+                        </div>
+                        <div id="player-controls">
+                            <div class="control">
+                                <div class="button" id="play-previous">
+                                    <i class="fas fa-backward"></i>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <div class="button" id="play-pause-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <div class="button" id="play-next">
+                                    <i class="fas fa-forward"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="container-audio">
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+                <div class="colum1">
+                    <div class="row"></div>
+                </div>
+            </div>
         </div>
     </main>
     <section class="wrapper">
@@ -44,6 +111,8 @@
         <div id="stars2"></div>
         <div id="stars3"></div>
     </section>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./script/main.js"></script>
 </body>
 
 </html>
