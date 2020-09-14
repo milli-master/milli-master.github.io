@@ -33,7 +33,7 @@ $(function () {
         "Little Did I Know",
         "Replay",
         "LMM",
-        "i swear i'll never leave again",
+        "i'll never leave again",
         "Walls",
       ],
       trackNames = [
